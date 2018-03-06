@@ -1,0 +1,19 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "explorer.openEditors.visible": 0,
+    "eslint.packageManager": "yarn",
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "vue"
+    ],
+    "[javascript]": {
+      "editor.tabSize": 2
+    },
+    "[vue]": {
+      "editor.tabSize": 2
+    },
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "editor.minimap.enabled": true,
+    "window.zoomLevel": 0
+  }
