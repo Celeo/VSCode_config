@@ -1,30 +1,42 @@
 {
-    "workbench.startupEditor": "newUntitledFile",
-    "explorer.openEditors.visible": 0,
-    "eslint.packageManager": "yarn",
-    "eslint.validate": [
-        "javascript",
-        "javascriptreact",
-        "vue"
-    ],
-    "[javascript]": {
-      "editor.tabSize": 2
-    },
-    "[json]": {
-      "editor.tabSize": 2
-    },
-    "[vue]": {
-      "editor.tabSize": 2
-    },
-    "workbench.editor.enablePreviewFromQuickOpen": false,
-    "editor.minimap.enabled": false,
-    "window.zoomLevel": 0,
-    "editor.acceptSuggestionOnEnter": "off",
-    "todohighlight.keywords": [
-      "TODO",
-      "FIXME"
-    ],
-    "go.enableCodeLens": {
-      "runtest": false
-    }
-  }
+  "workbench.startupEditor": "newUntitledFile",
+  "explorer.openEditors.visible": 0,
+  "eslint.packageManager": "yarn",
+  "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      "vue"
+  ],
+  "[javascript]": {
+    "editor.tabSize": 2
+  },
+  "[json]": {
+    "editor.tabSize": 2
+  },
+  "[vue]": {
+    "editor.tabSize": 2
+  },
+  "[html]": {
+    "editor.tabSize": 2
+  },
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "editor.minimap.enabled": false,
+  "window.zoomLevel": 0,
+  "editor.acceptSuggestionOnEnter": "off",
+  "todohighlight.keywords": [
+    "TODO",
+    "FIXME"
+  ],
+  "go.enableCodeLens": {
+    "runtest": false
+  },
+  "explorer.confirmDelete": false,
+  "editor.tabCompletion": true,
+  "files.insertFinalNewline": true,
+  "go.formatTool": "gofmt",
+  "python.linting.flake8Args": [
+    "--ignore",
+    "E501"
+  ],
+  "telemetry.enableTelemetry": false
+}
