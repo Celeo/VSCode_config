@@ -34,6 +34,8 @@
   "editor.tabCompletion": true,
   "files.insertFinalNewline": true,
   "go.formatTool": "gofmt",
+  "python.linting.pylintEnabled": false,
+  "python.linting.flake8Enabled": true,
   "python.linting.flake8Args": [
     "--ignore",
     "E501"
