@@ -41,5 +41,6 @@
     "E501"
   ],
   "telemetry.enableTelemetry": false,
-  "files.insertFinalNewline": true
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true
 }
