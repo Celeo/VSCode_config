@@ -40,5 +40,6 @@
     "--ignore",
     "E501"
   ],
-  "telemetry.enableTelemetry": false
+  "telemetry.enableTelemetry": false,
+  "files.insertFinalNewline": true
 }
