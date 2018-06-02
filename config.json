@@ -7,18 +7,6 @@
       "javascriptreact",
       "vue"
   ],
-  "[javascript]": {
-    "editor.tabSize": 2
-  },
-  "[json]": {
-    "editor.tabSize": 2
-  },
-  "[vue]": {
-    "editor.tabSize": 2
-  },
-  "[html]": {
-    "editor.tabSize": 2
-  },
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "editor.minimap.enabled": false,
   "window.zoomLevel": 0,
@@ -42,5 +30,18 @@
   ],
   "telemetry.enableTelemetry": false,
   "files.insertFinalNewline": true,
-  "files.trimTrailingWhitespace": true
+  "files.trimTrailingWhitespace": true,
+  "[javascript]": {
+    "editor.tabSize": 2
+  },
+  "[json]": {
+    "editor.tabSize": 2
+  },
+  "[vue]": {
+    "editor.tabSize": 2
+  },
+  "[html]": {
+    "editor.tabSize": 2
+  },
+  "editor.fontSize": 15,
 }
