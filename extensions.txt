@@ -1,6 +1,9 @@
 Beautify
+Docker
 ESLint
 Go
-Vetur
 Indenticator
+Nim
+Python
 TODO Highlight
+Vetur
