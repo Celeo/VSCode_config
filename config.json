@@ -3,9 +3,9 @@
   "explorer.openEditors.visible": 0,
   "eslint.packageManager": "yarn",
   "eslint.validate": [
-      "javascript",
-      "javascriptreact",
-      "vue"
+    "javascript",
+    "javascriptreact",
+    "vue"
   ],
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "editor.minimap.enabled": false,
@@ -18,19 +18,16 @@
   "go.enableCodeLens": {
     "runtest": false
   },
-  "explorer.confirmDelete": false,
-  "editor.tabCompletion": true,
-  "files.insertFinalNewline": true,
-  "go.formatTool": "gofmt",
   "python.linting.pylintEnabled": false,
   "python.linting.flake8Enabled": true,
   "python.linting.flake8Args": [
     "--ignore",
     "E501"
   ],
-  "telemetry.enableTelemetry": false,
+  "python.linting.flake8Path": "/home/arch/.local/bin/flake8",
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
+  "telemetry.enableTelemetry": false,
   "[javascript]": {
     "editor.tabSize": 2
   },
@@ -44,4 +41,17 @@
     "editor.tabSize": 2
   },
   "editor.fontSize": 15,
+  "eslint.autoFixOnSave": true,
+  "typescript.format.enable": false,
+  "typescript.validate.enable": false,
+  "javascript.validate.enable": false,
+  "emmet.includeLanguages": {
+    "jinja2": "html",
+    "jinja-html": "html",
+  },
+  "[jinja-html]": {
+    "editor.tabSize": 2
+  },
+  "terminal.integrated.rendererType": "dom",
+  "editor.cursorBlinking": "phase"
 }
