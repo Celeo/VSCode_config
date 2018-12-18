@@ -1,6 +1,9 @@
 Beautify
+Better Jinja
+C/C++
 Docker
 ESLint
+Indenticator
 Go
 Indenticator
 Nim
