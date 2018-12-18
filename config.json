@@ -47,11 +47,23 @@
   "javascript.validate.enable": false,
   "emmet.includeLanguages": {
     "jinja2": "html",
-    "jinja-html": "html",
+    "jinja-html": "html"
   },
   "[jinja-html]": {
     "editor.tabSize": 2
   },
   "terminal.integrated.rendererType": "dom",
-  "editor.cursorBlinking": "phase"
+  "editor.cursorBlinking": "phase",
+  "terminal.integrated.rendererType": "dom",
+  "editor.cursorBlinking": "phase",
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/env": true,
+    "**/node_modules": true
+  },
+  "files.associations": {
+    "*.tpl": "html"
+  },
+  "git.enableSmartCommit": true,
+  "window.titleBarStyle": "custom"
 }
