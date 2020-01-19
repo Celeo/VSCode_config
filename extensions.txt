@@ -1,12 +1,24 @@
 Beautify
+Better TOML
 Better Jinja
 C/C++
+Clojure
+Code Spell Checker
+CodeLLDB
 Docker
 ESLint
-Indenticator
 Go
 Indenticator
+Lua
 Nim
+Prettier - Code formatter
+Pyright
 Python
+Rainbow CSV
+Rust (rls)
+systemd-unit-file
 TODO Highlight
+TSLint
+vscode-proto3
 Vetur
+vue
