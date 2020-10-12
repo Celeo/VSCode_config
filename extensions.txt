@@ -11,14 +11,14 @@ Go
 Indenticator
 Lua
 Nim
+markdownlint
 Prettier - Code formatter
 Pyright
 Python
 Rainbow CSV
-Rust (rls)
+rust-analyzer
 systemd-unit-file
 TODO Highlight
-TSLint
-vscode-proto3
 Vetur
-vue
+XML Format
+YAML
