@@ -1,105 +1,92 @@
 {
-  "workbench.startupEditor": "newUntitledFile",
-  "explorer.openEditors.visible": 0,
-  "eslint.packageManager": "yarn",
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "vue"
-  ],
-  "workbench.editor.enablePreviewFromQuickOpen": false,
-  "editor.minimap.enabled": false,
-  "window.zoomLevel": 0,
-  "editor.acceptSuggestionOnEnter": "off",
-  "todohighlight.keywords": [
-    "TODO",
-    "FIXME"
-  ],
-  "go.enableCodeLens": {
-    "runtest": false
-  },
-  "python.linting.pylintEnabled": false,
-  "python.linting.flake8Enabled": true,
-  "python.linting.flake8Args": [
-    "--ignore",
-    "E501"
-  ],
-  "python.linting.flake8Path": "/home/arch/.local/bin/flake8",
-  "files.insertFinalNewline": true,
-  "files.trimTrailingWhitespace": true,
-  "telemetry.enableTelemetry": false,
-  "[javascript]": {
-    "editor.tabSize": 2
-  },
-  "[javascriptreact]": {
-    "editor.tabSize": 2
-  },
-  "[json]": {
-    "editor.tabSize": 2
-  },
-  "[vue]": {
-    "editor.tabSize": 2
-  },
-  "[html]": {
-    "editor.tabSize": 2
-  },
-  "[css]": {
-    "editor.tabSize": 2
-  },
-  "[nim]": {
-    "editor.tabSize": 2
-  },
-  "[typescript]": {
+    "workbench.startupEditor": "newUntitledFile",
+    "explorer.openEditors.visible": 0,
+    "eslint.packageManager": "yarn",
+    "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      "vue"
+    ],
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "editor.minimap.enabled": false,
+    "window.zoomLevel": 0,
+    "editor.acceptSuggestionOnEnter": "off",
+    "todohighlight.keywords": [
+      "TODO",
+      "todo!",
+      "FIXME"
+    ],
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+      "--max-line-length=200"
+    ],
+    "python.linting.flake8Path": "/home/matt/.local/bin/flake8",
+    "[python]": {
+      "editor.tabSize": 4
+    },
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "telemetry.enableTelemetry": false,
     "editor.tabSize": 2,
-    "editor.formatOnSave": true
-  },
-  "editor.fontSize": 16,
-  "eslint.autoFixOnSave": true,
-  "typescript.format.enable": false,
-  "typescript.validate.enable": false,
-  "javascript.validate.enable": false,
-  "emmet.includeLanguages": {
-    "jinja2": "html",
-    "jinja-html": "html",
-    "vue": "html",
-    "vue-html": "html"
-  },
-  "emmet.excludeLanguages": [
-    "javascriptreact"
-  ],
-  "[jinja-html]": {
-    "editor.tabSize": 2
-  },
-  "terminal.integrated.rendererType": "dom",
-  "editor.cursorBlinking": "phase",
-  "files.exclude": {
-    "**/__pycache__": true,
-    "**/env": true,
-    "**/node_modules": true
-  },
-  "files.associations": {
-    "*.tpl": "html"
-  },
-  "git.enableSmartCommit": true,
-  "window.titleBarStyle": "custom",
-  "terminal.integrated.shell.linux": "/bin/zsh",
-  "[rust]": {
-    "editor.formatOnSave": true,
-  },
-  "rust-client.channel": "stable",
-  "editor.codeLens": false,
-  "explorer.confirmDragAndDrop": false,
-  "debug.allowBreakpointsEverywhere": true,
-  "rust.clippy_preference": "on",
-  "latex-workshop.view.pdf.viewer": "tab",
-  "go.formatTool": "goimports",
-  "[yaml]": {
-    "editor.tabSize": 2
-  },
-  "editor.codeActionsOnSave": {
-    "source.fixAll.tslint": true,
-    "source.fixAll.eslint": true
-  },
-  "explorer.confirmDelete": false
-}
-
+    "[typescript]": {
+      "editor.formatOnSave": true
+    },
+    "editor.fontSize": 18,
+    "typescript.format.enable": false,
+    "typescript.validate.enable": true,
+    "javascript.validate.enable": false,
+    "emmet.includeLanguages": {
+      "jinja2": "html",
+      "jinja-html": "html",
+      "vue": "html",
+      "vue-html": "html"
+    },
+    "emmet.excludeLanguages": [
+      "javascriptreact"
+    ],
+    "[jinja-html]": {
+      "editor.tabSize": 2
+    },
+    "terminal.integrated.rendererType": "dom",
+    "editor.cursorBlinking": "phase",
+    "files.exclude": {
+      "**/__pycache__": true,
+      "**/env": true,
+      "**/node_modules": true,
+      "**/target": true
+    },
+    "files.associations": {
+      "*.tpl": "html"
+    },
+    "git.enableSmartCommit": true,
+    "window.titleBarStyle": "custom",
+    "terminal.integrated.shell.linux": "/usr/bin/zsh",
+    "[rust]": {
+      "editor.formatOnSave": true,
+      "editor.tabSize": 4
+    },
+    "editor.codeLens": false,
+    "explorer.confirmDragAndDrop": false,
+    "debug.allowBreakpointsEverywhere": true,
+    "[yaml]": {
+      "editor.tabSize": 2
+    },
+    "editor.codeActionsOnSave": {
+      "source.fixAll.tslint": true,
+      "source.fixAll.eslint": true
+    },
+    "explorer.confirmDelete": false,
+    "[elm]": {
+      "editor.formatOnSave": true
+    },
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "cSpell.words": [
+      "repos"
+    ],
+    "workbench.editor.showTabs": true,
+    "[json]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+    }
+  }
