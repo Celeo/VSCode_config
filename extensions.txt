@@ -1,16 +1,13 @@
 Beautify
 Better TOML
 Better Jinja
-C/C++
-Clojure
 Code Spell Checker
 CodeLLDB
 Docker
 ESLint
-Go
 Indenticator
-Lua
-Nim
+just
+lit-plugin
 markdownlint
 Prettier - Code formatter
 Pyright
